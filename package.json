@@ -1,6 +1,6 @@
 {
   "name": "react-ga-hooks",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "React hooks for Google Analytics",
   "repository": "mikewuu/react-ga-hooks",
   "main": "index.js",
