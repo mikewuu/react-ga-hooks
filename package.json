@@ -1,8 +1,8 @@
 {
-  "name": "react-ga-hooks",
-  "version": "1.1.0",
+  "name": "react-ga4-hooks",
+  "version": "0.0.1",
   "description": "React hooks for Google Analytics",
-  "repository": "mikewuu/react-ga-hooks",
+  "repository": "mikewuu/react-ga4-hooks",
   "main": "index.js",
   "scripts": {
     "build": "tsc --project tsconfig.build.json",
