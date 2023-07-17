@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "tsc --project tsconfig.build.json",
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "lint": "eslint --ignore-path .gitignore --ext .js,.cjs,.mjs,.ts,.tsx .",
     "prettier:check": "prettier --check --ignore-path .gitignore .",
     "prettier:fix": "prettier --write --ignore-path .gitignore .",
@@ -21,6 +21,8 @@
     "eslint-config-standard-react": "^13.0.0",
     "eslint-config-standard-with-typescript": "^36.1.0",
     "eslint-plugin-simple-import-sort": "^10.0.0",
+    "jest": "^29.6.1",
+    "jest-watch-typeahead": "^2.2.2",
     "prettier": "^3.0.0",
     "react": "^18.2.0",
     "typescript": "^5.1.6"
