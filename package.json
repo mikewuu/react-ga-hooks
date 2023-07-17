@@ -1,0 +1,11 @@
+{
+  "name": "react-ga-hooks",
+  "version": "1.0.0",
+  "description": "React hooks for Google Analytics",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT"
+}
