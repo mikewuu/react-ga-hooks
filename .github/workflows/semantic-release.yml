@@ -35,6 +35,7 @@ jobs:
         id: release
         uses: cycjimmy/semantic-release-action@v3
         with:
+          dry_run: true
           semantic_version: '^19.0.0'
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
