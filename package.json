@@ -1,6 +1,6 @@
 {
   "name": "react-ga-hooks",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "React hooks for Google Analytics",
   "main": "index.js",
   "scripts": {
@@ -9,7 +9,8 @@
     "lint": "eslint --ignore-path .gitignore --ext .js,.cjs,.mjs,.ts,.tsx .",
     "prettier:check": "prettier --check --ignore-path .gitignore .",
     "prettier:fix": "prettier --write --ignore-path .gitignore .",
-    "format": "npm run prettier:fix && npm run lint"
+    "format": "npm run prettier:fix && npm run lint",
+    "typecheck": "tsc"
   },
   "author": "",
   "license": "MIT",
