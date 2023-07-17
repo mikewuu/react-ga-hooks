@@ -36,6 +36,8 @@ jobs:
         with:
           dry_run: true
           semantic_version: '^19.0.0'
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
   release:
     name: Release version
     runs-on: ubuntu-latest
