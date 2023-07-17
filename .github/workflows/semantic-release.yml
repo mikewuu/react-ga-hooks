@@ -14,7 +14,7 @@ concurrency:
 
 jobs:
   semantic:
-    name: Release
+    name: Get version
     runs-on: ubuntu-latest
     timeout-minutes: 30
     outputs:
