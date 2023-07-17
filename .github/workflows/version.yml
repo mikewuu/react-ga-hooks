@@ -34,4 +34,4 @@ jobs:
       - name: Cut ${{ github.event.inputs.version }} version
         run: npm version --sign-git-tag=true ${{ github.event.inputs.version }}
       - name: Push
-        run: git push "https://${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}" "${{ github.head_ref }}"
+        run: git push
